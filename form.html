@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Register Form </title>
+</head>
+<body>
+	<h1>
+		Date permission application
+	</h1>
+
+<form action="" method="get">
+	
+	<h3><label for="First Name"> First Name: </label>
+	<input type="text" name="First Name" >
+	<label for="Last Name"> Last Name: </label>
+	<input type="text" name="Last Name"></h3>
+	<h3>
+	<label for="Email"> Email ID: </label>
+	<input type="Email" name="Email"></h3>
+	<h3>
+	<label for="Contact"> Contact Number: </label>
+	<input id="tel" type="tel" name="Contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" placeholder="123-456-7890" required></h3>
+	
+	<h3> <label> Select Gender: </label> </h3>
+	<label for="Gender"> Male </label>
+	<input type="radio" name="Gender" value="male">
+	<label for="Gender"> Female </label>
+	<input type="radio" name="Gender" value="Female">
+	
+	<h3> <label> Date of proposed outing Check all that apply to you:</label></h3>	
+	<input type="checkbox" name="Date_of_propose1">
+	<label for="Date_of_propose1"> I have tattoos and /or piercings. </label>
+	<br>
+	<input type="checkbox" name="Date_of_propose2">
+	<label for="Date_of_propose2"> I am more than 2 years older than my daughter. </label>
+	<br>
+	<input type="checkbox" name="Date_of_propose3">
+	<label for="Date_of_propose3"> I own a panel van or Ferrari </label>
+	<br>
+	<input type="checkbox" name="Date_of_propose4">
+	<label for="Date_of_propose4"> I work full-time  </label>
+	<br>
+	<input type="checkbox" name="Date_of_propose5">
+	<label for="Date_of_propose5"> My parents are rich. </label>
+	<br>
+	<input type="checkbox" name="Date_of_propose6">
+	<label for="Date_of_propose6"> Is the date at a private/public location.  </label>
+	<br>
+	<h3><input type="Submit" value="Submit"></h3>
+</form>	
+</body>
+</html>
